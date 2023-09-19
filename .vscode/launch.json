@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EClientApplication<E-Client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.aptech.EClientApplication",
+            "projectName": "E-Client",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52641 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=E-Client"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EAdminApplication<E-Admin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.aptech.admin.EAdminApplication",
+            "projectName": "E-Admin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
