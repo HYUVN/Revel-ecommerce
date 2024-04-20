@@ -1,8 +1,6 @@
 --Name: Revel-ecommerce
 	+Member: Phạm Quang Huy(leader)
-		 Nguyễn Khôi Nguyên
-		 Hoàng Hữu Huy
-	+Time: 20/08/2023 - 30/09/2023
+	+Time: 20/06/2023 - 30/12/2023
 	+Teacher: Nguyễn Trung Kiên
 --Setup:
 
